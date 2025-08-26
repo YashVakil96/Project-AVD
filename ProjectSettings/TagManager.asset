@@ -2,8 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -11,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemies
+  - Projectiles
+  - Pickups
+  - Blocking
   - 
   - 
   - 
@@ -41,3 +43,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UI
+    uniqueID: 1166245261
+    locked: 0
+  - name: Player
+    uniqueID: 3983101005
+    locked: 0
+  - name: Enemies
+    uniqueID: 2721215211
+    locked: 0
+  - name: Projectiles
+    uniqueID: 144354547
+    locked: 0
+  - name: Pickups
+    uniqueID: 1353963113
+    locked: 0
+  - name: Props
+    uniqueID: 3788504309
+    locked: 0
+  - name: Ground
+    uniqueID: 2634043175
+    locked: 0
+  m_RenderingLayers:
+  - Default
