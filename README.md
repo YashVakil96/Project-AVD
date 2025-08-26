@@ -1,2 +1,2 @@
 # Project AVD
-Unity Project for 2D Twin Stick Shooter inspired by Ash Vs Evil Dead
+Unity Project for 2d Top Down shooting Horde game inspired from  Evil Dead 
