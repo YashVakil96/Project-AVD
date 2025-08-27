@@ -16,8 +16,9 @@ public class EnemyHealth : MonoBehaviour
         if (currentHP <= 0) Die();
     }
 
-    private void Die()
-    {
+    private void Die() {
+        WaveManager.Instance?.ReportEnemyDeath();
         Destroy(gameObject);
     }
+
 }
